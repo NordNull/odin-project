@@ -1,0 +1,19 @@
+Screen:
+    ☐ Create rps title
+    ☐ Create scoreboard
+    ☐ Create round result
+    ☐ Create rps buttons
+
+Styling:
+    ☐ Style rps title
+    ☐ Style scoreboard
+    ☐ Style round result
+    ☐ Style rps buttons
+
+JS:
+    ☐ Build out game logic
+    ☐ Build out logic to update:
+        ☐ scoreboard
+        ☐ round result
+    ☐ Build out reset game logic
+    ☐ Develop round logic
