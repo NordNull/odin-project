@@ -1,8 +1,8 @@
 Screen:
-    ☐ Create rps title
-    ☐ Create scoreboard
-    ☐ Create round result
-    ☐ Create rps buttons
+    ✔ Create rps title @done(25-06-12 22:20)
+    ✔ Create scoreboard @done(25-06-12 22:20)
+    ✔ Create round result @done(25-06-12 22:20)
+    ✔ Create rps buttons @done(25-06-12 22:20)
 
 Styling:
     ☐ Style rps title
