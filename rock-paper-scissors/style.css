@@ -1,7 +1,67 @@
 body {
     width: 100%;
+    background-color: black;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.title {
-    border:;
+#round-counter {
+    background-color: grey;
+    height: 75px;
+    width: 125px;
+    margin: 25px;
+    border-radius: 5px;
 }
+
+#round-counter-text {
+    color: white;
+    text-align: center;
+}
+
+#title-text {
+    color: yellow;
+}
+
+#round-results {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-text {
+    text-align: center;
+}
+
+.player-container {
+    background-color: grey;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    border-radius: 5px;
+}
+
+.user-text {
+    color: white;
+}
+
+#button-container {
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+button.game-button {
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+}
+
+.text-style {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+

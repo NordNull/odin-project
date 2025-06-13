@@ -3,37 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div id="title">
-        <h1 id="title-text">Rock Paper Scissors</h1>
+        <h1 id="title-text" class="text-style">Rock Paper Scissors</h1>
     </div>
     <div id="round-counter">
-        <h2 id="round-counter-text">Round: </h2>
+        <h2 id="round-counter-text" class="text-style">Round: 0</h2>
     </div>
     <div id="round-results">
-        <div id="user-choice-container">
-            <h3 class="user-text">😎 User:</h3>
-            <span id="user-choice"></span>
-            <h3 class="score" id="user-score"></h3>
+        <div id="user-choice-container" class="player-container">
+            <h3 class="user-text container-text">😎</h3>
+            <span id="user-choice" class="container-text text-style">?</span>
+            <h3 class="score container-text text-style" id="user-score">User Score: </h3>
         </div>
-        <div id="computer-choice-container">
-            <h3 class="user-text">👾 Computer:</h3>
-            <span id="computer-choice"></span>
-            <h3 class="score" id="computer-score"></h3>
+        <div id="computer-choice-container" class="player-container">
+            <h3 class="user-text container-text">👾</h3>
+            <span id="computer-choice" class="container-text">❓</span>
+            <h3 class="score container-text text-style" id="computer-score">Computer Score: </h3>
         </div>
     </div>
-    <div id="game-buttons">
-        <div class="button" id="rock-button">
-            <button>✊</button>
-        </div>
-        <div class="button" id="paper-button">
-            <button>🖐️</button>
-        </div>
-        <div class="button" id="scissor-button">
-            <button>✌️</button>
-        </div>
+    <div id="button-container">
+        <button class="game-button" id="rock-button">✊</button>
+        <button class="game-button" id="paper-button">🖐️</button>
+        <button class="game-button" id="scissor-button">✌️</button>
     </div>
 </body>
 </html>
